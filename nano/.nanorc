@@ -1,0 +1,18 @@
+# --- Visual e Usabilidade ---
+set linenumbers      # Mostra números de linha
+set mouse            # Ativa suporte ao mouse (clicar para mover o cursor)
+# set smooth           # Rolagem suave
+set titlecolor white,blue # Cor na barra de título
+set numbercolor cyan # Cor nos números de linha
+set keycolor cyan    # Cor nos atalhos
+
+# --- Edição ---
+set autoindent       # Recuo automático
+set tabsize 4        # Tamanho da tabulação (2 ou 4 é o padrão moderno)
+set tabstospaces     # Converte Tabs em espaços
+set smarthome        # Home inteligente (vai para o início do texto, não da linha)
+set softwrap         # Quebra de linha suave (não divide palavras)
+set positionlog      # Lembra a posição do cursor ao reabrir arquivos
+
+# --- Sintaxe Colorida ---
+include "/usr/share/nano/*.nanorc"
